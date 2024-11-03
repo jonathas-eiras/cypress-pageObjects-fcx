@@ -1,0 +1,5 @@
+Given I am in Home Page
+When I want search for a product
+And I inform the name of the product
+And I search the product
+Then the product is found

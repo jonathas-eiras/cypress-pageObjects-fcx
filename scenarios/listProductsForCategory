@@ -1,0 +1,4 @@
+Given I am in Home Page
+When I want list the products for category
+And I inform the category
+Then the products is found

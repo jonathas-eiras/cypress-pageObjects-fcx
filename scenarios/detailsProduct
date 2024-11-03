@@ -1,0 +1,4 @@
+Given I am in Home Page
+When I want to see the product details
+And I detail a product
+Then the product details is shown
