@@ -14,6 +14,8 @@ class homePage{
         clickOnElement(this.elements.selectProduct)
         clickOnElement(this.elements.btnSearch)
 
+        cy.intercept('GET', 'https://fcxlabs-ecommerce-api.ferreiracosta.com/catalog/v1/products/**').as('returnList')
+
     }
 }
 

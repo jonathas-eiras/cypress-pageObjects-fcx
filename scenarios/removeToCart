@@ -1,0 +1,3 @@
+Given I have a product in the cart
+When I want to remove the product
+Then the product was removed to the cart

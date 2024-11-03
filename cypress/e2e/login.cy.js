@@ -1,6 +1,6 @@
 
 describe('Login', () => {
-    it('Realizar login com sucesso', () => {
+    it('Login is successfully ', () => {
         cy.wait('@loginSuccess').then((interception) => {
             expect(interception.response.statusCode).to.eq(200)
             cy.get('[data-cy="link-wrapper-user-desk"]').should('be.visible').click()

@@ -1,11 +1,13 @@
-import { clickOnElement} from "../support/utils"
-class listProductsPage{
+import { clickOnElement } from "../support/utils"
 
-    elements ={
-        productInList: ('[data-cy="card-container-0"] > [data-cy="product-card-container-as-component-link"]'),
+class listProductsPage {
+
+    elements = {
+        productInList: ('[data-cy="card-container-0"]')
     }
 
-    searchProduct (){
+    searchProduct() {
+        cy.wait('@returnList')
         clickOnElement(this.elements.productInList)
     }
 }
