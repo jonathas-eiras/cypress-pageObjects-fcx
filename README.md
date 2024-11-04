@@ -8,7 +8,13 @@ Repositório contendo testes automatizados, que foram implementados com uso do C
 
 A estrutura do projeto está organizada de acordo com as melhores práticas do Cypress e Page Objects:
 
-:<img width="266" alt="Screenshot 2024-11-04 at 12 06 53" src="https://github.com/user-attachments/assets/a60b494d-5c2a-4ee5-862b-19a37ea85284">:
+:<img width="259" alt="Screenshot 2024-11-04 at 12 21 39" src="https://github.com/user-attachments/assets/f5125eec-758c-4cf4-8feb-4827954ca1a4">:
+
+- e2e - Pasta com os cenários de testes.
+- fixtures - Contém dados utilizados no teste (Por exemplo: dados de login do usuário).
+- pages - Pasta com os arquivos do padrão Page Objects, com os dados e funções de cada página web.
+- reports - Pasta contendo os reports gerados após execução dos testes.
+- support - Contém os arquivos com funções de uso global como "Login" e "Before Each".
 
 
 ## Pré-requisitos
