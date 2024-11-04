@@ -3,9 +3,17 @@ const { defineConfig } = require("cypress");
 module.exports = defineConfig({
   e2e: {
     setupNodeEvents(on, config) {
-      // implement node event listeners here
+      require('cypress-mochawesome-reporter/plugin')(on);
+      return config;
     },
-    upportFile: false,
+    supportFile: 'cypress/support/e2e.js',
+    reporter: 'cypress-mochawesome-reporter',
+    reporterOptions: {
+      reportDir: "cypress/reports",
+      overwrite: false,
+      html: true,
+      json: true,
+    },
     baseUrl: 'https://www.ferreiracosta.com',
     specPattern: '**/**/*.cy.js',
   
