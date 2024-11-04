@@ -32,3 +32,17 @@ A estrutura do projeto está organizada de acordo com as melhores práticas do C
 
 
 ## Execução dos testes e Reports - Github Actions
+
+- Acessar a aba actions
+
+- Escolher a opção Cypress-tests e clicar em Run workflow - Run workflow
+
+:<img width="1419" alt="Screenshot 2024-11-04 at 12 39 20" src="https://github.com/user-attachments/assets/4482f3bf-7dc3-4b39-809a-6b44afeaf298">:
+
+# Relatórios
+
+- Clicar na última execução
+
+- Rolar a página até a seção Artifacts e baixar os relatórios.
+
+- Abrir o arquivo index.html em um navegador.
